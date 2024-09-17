@@ -103,9 +103,19 @@ p {
 .contacts-link:focus {
   color: #404bbf;
 }
+/* footer ops*/
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-text {
+  max-width: 264px;
+}
 /* footer*/
 .page-footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
@@ -136,10 +146,76 @@ p {
   display: block;
   margin: 0 auto;
   border: none;
-  border-radius: 0 0 4px;
   padding: 16px 32px;
-  max-width: 169px;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
+/*mail two*/
+.container-num {
+  padding: 120px 0;
+}
+.container-hero {
+  display: flex;
+  gap: 24px;
+}
+.com-tip {
+  width: calc((100%-72) / 4);
+}
+.section-logo {
+  margin-bottom: 8px;
+}
+/*main three*/
+.secrion-three {
+  padding: 120px 0;
+}
+.secrion-team {
+  margin-bottom: 72px;
+}
+.container-foto {
+  display: flex;
+  gap: 24px;
+}
+.section-foto {
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+.info-job {
+  padding: 32px 0;
+}
+.section-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.section-job {
+  text-align: center;
+}
+/*main free*/
+.container-free {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-portfolio {
+  margin-bottom: 72px;
+}
+.container-port {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.lict-portf {
+  width: calc((100% - 48px) / 3);
+}
+.container-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.section-item {
+  margin-bottom: 8px;
+}
+
 .secrion-three {
   background-color: #f4f4fd;
 }
